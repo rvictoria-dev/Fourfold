@@ -1,0 +1,28 @@
+img {
+  width: min(35vw, 364px);
+  height: auto;
+  --_g: 10%/45% 45% no-repeat conic-gradient(#000 0 0);
+  mask:
+    left var(--_i,) top var(--_g),
+    bottom var(--_i,) left var(--_g),
+    top var(--_i,) right var(--_g),
+    right var(--_i,) bottom var(--_g);
+  filter: grayscale();
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+
+img:hover {
+  --_i: 10%;
+  filter: grayscale(0);
+}
+
+body {
+  margin: 0;
+  background: #f3f0e9;
+  display: grid;
+  min-height: 100vh;
+  grid-auto-flow: column;
+  place-content: center;
+  gap: 40px;
+}
