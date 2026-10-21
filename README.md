@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/7aa97713-7e24-4c81-9536-b23dd4e0df69
 
  ```
 Fourfold/
-├── Assets/
+├── assets/
 │   ├── picture-1.jpg
 │   └── picture-2.jpg
 ├── index.html
